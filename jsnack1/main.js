@@ -11,10 +11,10 @@ if (isFirstNumberANumber && isSecondNumberANumber){
 
     if(firstNumber > secondNumber){
         console.log("Il numero più grande è il primo: " + firstNumber);
-    } else if(firstNumber == secondNumber) {
-        console.log("I numeri sono uguali");
-    } else {
+    } else if(firstNumber < secondNumber) {
         console.log("Il numero più grande è il secondo: " + secondNumber);
+    } else {
+        console.log("I numeri sono uguali");
     }
 
 } else{
