@@ -2,7 +2,7 @@ let userNumbers;
 let somma = 0;
 
 for(let i=1; i<=10; i++){
-    userNumbers = prompt("Scegli il numero");
+    userNumbers = prompt("Scegli il " + i + " numero");
     
     if(!isNaN(userNumbers)){
         userNumbers = parseInt(userNumbers);
