@@ -6,7 +6,7 @@ for(let i=1; i<=10; i++){
     
     if(!isNaN(userNumbers)){
         userNumbers = parseInt(userNumbers);
-        somma = somma + userNumbers;
+        somma += userNumbers;
 
     } else {
         console.log("Scegli altri numeri");

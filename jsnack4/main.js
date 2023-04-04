@@ -5,7 +5,8 @@ userName = userName.toLowerCase();
 
 let check = false
 
- /*
+
+/*
 for(let i=0; i < nomiInvitatiFesta.lenght; i++){
 
     if(nomiInvitatiFesta.indexOf(userName) > -1){
